@@ -8,7 +8,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Cart from './pages/Cart/Cart'
 import Home from './pages/Home/Home'
 import LoginPopup from './components/LoginPopup/LoginPopup';
-import Verify from './pages/verify/verify';
+import Verify from './pages/verify/Verify';
 import MyOrders from './pages/MyOrders/MyOrders';
 
 const App = () => {
