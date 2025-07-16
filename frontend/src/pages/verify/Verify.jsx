@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from "react";
 import axios from "axios";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { StoreContext } from "../../Context/StoreContext";
-import './verify.css'
+import './Verify.css'
 const Verify = () => {
   const [searchParams] = useSearchParams();
   const success = searchParams.get("success");
