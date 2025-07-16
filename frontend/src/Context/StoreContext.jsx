@@ -7,7 +7,7 @@ const StoreContextProvider = (props) => {
     const [cartItems, setCartItems] = useState({});
     const [food_list, setFoodList] = useState([]);
     const [token, setToken] = useState("");
-    const url = "http://localhost:4000";
+    const url = "https://restaurant-app-backend-hsx9.onrender.com";
 
     // Save cartItems to localStorage whenever they change
     useEffect(() => {
